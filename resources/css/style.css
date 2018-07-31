@@ -2,9 +2,13 @@ body {
   text-align: center;
   font-family: Helvetica;
 }
+h2, h3 {
+  font-weight: bold;
+}
 
 div.footer {
   text-align: left;
+  background-color: dimgray;
 }
 
 .background {
@@ -13,7 +17,8 @@ div.footer {
 h1,
 nav,
 a,
-.background {
+.background,
+span {
   color: white;
 }
 h1 {
@@ -29,4 +34,7 @@ h3 {
 }
 a {
   font-size: 18px;
+}
+span {
+  font-size: 11px;
 }
